@@ -4,7 +4,7 @@ class GTasksSynchronizer {
 
     console.log("Syncing GTasks...");
 
-    const list = GTasksAPI.getOrCreateList(Constants.GTASK_LIST_NAME);
+    const list = GTasksAPI.getOrCreateList(Constants.GTASKS_LIST_NAME);
 
     let tasks = GTasksAPI.getTasks(list.id);
 
